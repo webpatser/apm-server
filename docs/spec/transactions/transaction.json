@@ -3,9 +3,9 @@
     "type": "object",
     "description": "An event corresponding to an incoming request or similar task occurring in a monitored service",
     "allOf": [
-        { "$ref": "../timestamp_epoch.json" },
-        { "$ref": "../transaction_name.json" },
-        { "$ref": "../transaction_type.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/timestamp_epoch.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/transaction_name.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/transaction_type.json" },
         {
             "properties": {
                 "id": {
@@ -40,7 +40,7 @@
                     "required": ["started"]
                 },
                 "context": {
-                    "$ref": "../context.json"
+                    "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/context.json"
                 },
                 "duration": {
                     "type": "number",

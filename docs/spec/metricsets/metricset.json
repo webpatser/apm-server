@@ -3,11 +3,11 @@
     "type": "object",
     "description": "Data captured by an agent representing an event occurring in a monitored service",
     "allOf": [
-        { "$ref": "../timestamp_epoch.json"},
-        { "$ref": "../span_type.json" },
-        { "$ref": "../span_subtype.json" },
-        { "$ref": "../transaction_name.json" },
-        { "$ref": "../transaction_type.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/timestamp_epoch.json"},
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/span_type.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/span_subtype.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/transaction_name.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/transaction_type.json" },
         {
             "properties": {
                 "samples": {
@@ -23,7 +23,7 @@
                     "additionalProperties": false
                 },
                 "tags": {
-                    "$ref": "../tags.json"
+                    "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/tags.json"
                 }
             },
             "required": ["samples"]

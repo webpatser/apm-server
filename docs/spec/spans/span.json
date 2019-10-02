@@ -3,9 +3,9 @@
     "type": "object",
     "description": "An event captured by an agent occurring in a monitored service",
     "allOf": [
-        { "$ref": "../timestamp_epoch.json" },
-        { "$ref": "../span_type.json" },
-        { "$ref": "../span_subtype.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/timestamp_epoch.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/span_type.json" },
+        { "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/span_subtype.json" },
         {
             "properties": {
                 "id": {
@@ -88,7 +88,7 @@
                             }
                         },
                         "tags": {
-                            "$ref": "../tags.json"
+                            "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/tags.json"
                         },
                         "service": {
                             "description": "Service related information can be sent per event. Provided information will override the more generic information from metadata, non provided fields will be set according to the metadata information.",
@@ -149,7 +149,7 @@
                     "type": ["array", "null"],
                     "description": "List of stack frames with variable attributes (eg: lineno, filename, etc)",
                     "items": {
-                        "$ref": "../stacktrace_frame.json"
+                        "$ref": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/stacktrace_frame.json"
                     },
                     "minItems": 0
                 },
