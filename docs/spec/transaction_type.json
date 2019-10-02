@@ -1,5 +1,5 @@
 {
-    "$id": "docs/spec/transaction_type.json",
+    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/transaction_type.json",
     "title": "Transaction Type",
     "type": ["object"],
     "properties": {

@@ -1,5 +1,5 @@
 {
-    "$id": "docs/spec/span_type.json",
+    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/span_type.json",
     "title": "Span Type",
     "type": ["object"],
     "properties": {

@@ -1,5 +1,5 @@
 {
-    "$id": "docs/spec/metricsets/metricset.json",
+    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/metricsets/metricset.json",
     "type": "object",
     "description": "Data captured by an agent representing an event occurring in a monitored service",
     "allOf": [

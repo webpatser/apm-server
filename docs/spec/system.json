@@ -1,5 +1,5 @@
 {
-    "$id": "docs/spec/system.json",
+    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/system.json",
     "title": "System",
     "type": ["object", "null"],
     "properties": {

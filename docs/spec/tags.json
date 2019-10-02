@@ -1,5 +1,5 @@
 {
-    "$id": "docs/spec/tags.json",
+    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/tags.json",
     "title": "Tags",
     "type": ["object", "null"],
     "description": "A flat mapping of user-defined tags with string, boolean or number values.",
