@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/stacktrace_frame.json",
+    "$id": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/stacktrace_frame.json",
     "title": "Stacktrace",
     "type": "object",
     "description": "A stacktrace frame, contains various bits (most optional) describing the context of the frame",

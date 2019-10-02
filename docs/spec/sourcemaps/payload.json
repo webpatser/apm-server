@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/sourcemaps/sourcemap-metadata.json",
+    "$id": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/sourcemaps/sourcemap-metadata.json",
     "title": "Sourcemap Metadata",
     "description": "Sourcemap Metadata",
     "type": "object",

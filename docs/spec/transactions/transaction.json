@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/transactions/transaction.json",
+    "$id": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/transactions/transaction.json",
     "type": "object",
     "description": "An event corresponding to an incoming request or similar task occurring in a monitored service",
     "allOf": [

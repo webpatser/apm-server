@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/context.json",
+    "$id": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/context.json",
     "title": "Context",
     "description": "Any arbitrary contextual information regarding the event, captured by the agent, optionally provided by the user",
     "type": ["object", "null"],

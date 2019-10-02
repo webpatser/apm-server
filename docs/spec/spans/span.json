@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/spans/span.json",
+    "$id": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/spans/span.json",
     "type": "object",
     "description": "An event captured by an agent occurring in a monitored service",
     "allOf": [

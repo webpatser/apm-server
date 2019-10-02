@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/user.json",
+    "$id": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/user.json",
     "title": "User",
     "type": ["object", "null"],
     "properties": {

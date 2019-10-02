@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/span_subtype.json",
+    "$id": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/span_subtype.json",
     "title": "Span Subtype",
     "type": ["object"],
     "properties": {

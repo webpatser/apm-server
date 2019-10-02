@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/elastic/apm-server/master/docs/spec/timestamp_epoch.json",
+    "$id": "https://raw.githubusercontent.com/webpatser/apm-server/master/docs/spec/timestamp_epoch.json",
     "title": "Timestamp Epoch",
     "description": "Object with 'timestamp' property.",
     "type": ["object"],
